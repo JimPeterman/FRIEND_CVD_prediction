@@ -33,6 +33,6 @@ Scatterplots were created to illustrate the differences between the new equation
 
 
 ## The Final Product/Results:
-The initial results for this study were submitted and presented at the 2022 American Heart Association EPI/Lifestyle Conference. After the conference, additional data was contributed to FRIEND, allowing for the analysis to be reperformed on a larger dataset.
+The initial results for this study were submitted and presented as a poster at the 2022 American Heart Association EPI|Lifestyle Conference in Chicago, IL (_you can view the poster that was presented at this conference as the AHA_poster.pdf file in this repository_).
 
-Following the final data analysis, I summarized the findings of this study and submitted the scientific manuscript for publication. The manuscript is currently under peer review by experts in the field.
+After the conference, additional data was contributed to FRIEND, allowing for the analysis to be reperformed on a larger dataset. Following this final data analysis, I summarized the findings of this study and submitted the scientific manuscript for publication. The manuscript is currently under peer review by experts in the field.
