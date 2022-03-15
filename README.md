@@ -30,3 +30,10 @@ Comparisons between measured and predicted VO<sub>2peak</sub> were performed wit
 Bland-Altman plots were constructed to illustrate the agreement between measured and predicted VO<sub>2peak</sub> from each equation. 
 
 Scatterplots were created to illustrate the differences between the new equation and the previously published equation developed on a healthy cohort. Colors were added to indicate differences between predicted and measured VO<sub>2peak</sub> that were represented as metabolic equivalents (METs) to facilitate interpretation of errors. Groups were then created according to the absolute MET difference between predicted and measured VO<sub>2peak</sub>: <0.50, 0.50–0.99, 1.00–1.99, and ≥2.00 METs. The distribution of the MET groups for each prediction equation was compared with a Chi-Square test. 
+
+
+## The Final Product/Results:
+The initial results for this study were submitted and presented at the 2022 American Heart Association EPI/Lifestyle conference. After the conference, additional data was contributed to FRIEND, allowing for subsequent analysis on a larger dataset.
+
+Following the data analysis, I summarized the findings of this study and submitted the scientific manuscript for publication. The manuscript is currently under peer review by experts in the field.
+
