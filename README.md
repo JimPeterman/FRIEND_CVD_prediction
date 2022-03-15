@@ -19,14 +19,14 @@ The data comes from the FRIEND database. The data wrangling and cleaning relied 
 ### Analysis.
 From the dataset, 80% (n = 12,798) of the subjects were randomly selected for development of the prediction equation and the remaining 20% (n = 3,199) were used for validation of the equation. Multivariate forward stepwise regression with the caret package in R was used to identify which variables to include in the model (the model that minimized the RMSE was chosen as the best model).
 
-For comparison with the new CVD-specific equation, predicted VO<sub>2peak</sub> for each subject of the validation cohort was determined using a previously published equation developed on a FRIEND cohort without known CVD. The variables in this previously published equation were the same as those considered for the CVD-specific equation, with the exception of CVD diagnosis
+For comparison with the new CVD-specific equation, predicted VO<sub>2peak</sub> for each subject of the validation cohort was determined using a [previously published](https://pubmed.ncbi.nlm.nih.gov/29517365/) equation developed on a FRIEND cohort without known CVD. The variables in this previously published equation were the same as those considered for the CVD-specific equation, with the exception of CVD diagnosis
 
 #### Statistics:
 The differences between sexes as well as between development and validation groups were examined using independent _t_-tests and Chi-square tests.
 
 Comparisons between measured and predicted VO<sub>2peak</sub> were performed with dependent _t_-tests and Pearson correlations. Correlation coefficients were compared following _Z_ transformation. To further assess the agreement between each prediction equation and directly measured VO<sub>2peak</sub>, intraclass correlation coefficient (ICC) estimates and their 95% confidence intervals were calculated using the irr package in R based on a single-score one-way model. The ICC estimates were then interpreted according to the [guidelines](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4913118/) proposed by Koo and Li.
 
-#### Visualizations.
+#### Visualizations:
 Bland-Altman plots were constructed to illustrate the agreement between measured and predicted VO<sub>2peak</sub> from each equation. 
 
 Scatterplots were created to illustrate the differences between the new equation and the previously published equation developed on a healthy cohort. Colors were added to indicate differences between predicted and measured VO<sub>2peak</sub> that were represented as metabolic equivalents (METs) to facilitate interpretation of errors. Groups were then created according to the absolute MET difference between predicted and measured VO<sub>2peak</sub>: <0.50, 0.50–0.99, 1.00–1.99, and ≥2.00 METs. The distribution of the MET groups for each prediction equation was compared with a Chi-Square test. 
