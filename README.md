@@ -1,7 +1,7 @@
 # Predicting Fitness (VO<sub>2peak</sub>) in Individuals with Cardiovascular Disease
 
 ## Summary:
-Predictions of peak oxygen consumption (VO<sub>2peak</sub>) are used clinically, yet current equations were developed from cohorts of apparently healthy individuals and may not be applicable to individuals with cardiovascular disease (CVD). **The purpose of this study was to develop a VO<sub>2peak</sub> prediction equation specifically for individuals with CVD.** The results indicated that the new equation for individuals with CVD had lower error between measured and predicted VO<sub>2peak</sub> meaning this new equation can improve risk stratification and clinical care in individuals with CVD,
+Predictions of peak oxygen consumption (VO<sub>2peak</sub>) are used clinically, yet current equations were developed from cohorts of apparently healthy individuals and may not be applicable to individuals with cardiovascular disease (CVD). **The purpose of this study was to develop a VO<sub>2peak</sub> prediction equation specifically for individuals with CVD.** The results indicated that the new equation for individuals with CVD had lower error between measured and predicted VO<sub>2peak</sub> meaning this new equation can improve risk stratification and clinical care in individuals with CVD.
 
 
 ## The Rationale:
