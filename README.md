@@ -31,7 +31,7 @@ Visualizations were created using ggplot as well as gridExtra to combine plots i
 
 Bland-Altman plots were constructed to illustrate the agreement between measured and predicted VO<sub>2peak</sub> from each equation:
 
-![Bland_Altman_plot](images.ba_plot.png)
+![Bland_Altman_plot](images/ba_plot.png)
 
 Scatterplots were created to illustrate the differences between the new equation and the previously published equation developed on a healthy cohort. Colors were added to indicate differences between predicted and measured VO<sub>2peak</sub> that were represented as metabolic equivalents (METs) to facilitate interpretation of errors. Groups were then created according to the absolute MET difference between predicted and measured VO<sub>2peak</sub>: <0.50, 0.50–0.99, 1.00–1.99, and ≥2.00 METs. The distribution of the MET groups for each prediction equation was compared with a Chi-Square test. 
 
