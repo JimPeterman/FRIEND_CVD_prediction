@@ -28,8 +28,8 @@ ba_CVD <- ggplot(df_test, aes(x = avg_CVD_eq, y = diff_CVD_eq)) +
   geom_hline(yintercept = mean(df_test$diff_CVD_eq, na.rm = T) + (1.96 * sd(df_test$diff_CVD_eq, na.rm = T)), 
              color = "royalblue3", size = 2, linetype = "dashed") +
   # axis labels.
-  labs(x=expression(paste("Average Measure ","(ml","\U00B7","kg"^"-1","\U00B7","min"^"-1",")")),
-       y=expression(paste("Predicted - Measured (ml","\U00B7","kg"^"-1","\U00B7","min"^"-1",")"))) +
+  labs(x=expression(paste("Average Measure ","(mL","\U00B7","kg"^"-1","\U00B7","min"^"-1",")")),
+       y=expression(paste("Predicted - Measured (mL","\U00B7","kg"^"-1","\U00B7","min"^"-1",")"))) +
   # x- and y-axis size.
   coord_cartesian(xlim = c(0, 60), ylim = c(-25, 30)) +
   # graph label.
@@ -71,8 +71,8 @@ ba_healthy <- ggplot(df_test, aes(x = avg_healthy_eq, y = diff_healthy_eq)) +
   geom_hline(yintercept = mean(df_test$diff_healthy_eq, na.rm = T) + (1.96 * sd(df_test$diff_healthy_eq, na.rm = T)), 
              color = "royalblue3", size = 2, linetype = "dashed") +
   # axis labels.
-  labs(x=expression(paste("Average Measure ","(ml","\U00B7","kg"^"-1","\U00B7","min"^"-1",")")),
-       y=expression(paste("Predicted - Measured (ml","\U00B7","kg"^"-1","\U00B7","min"^"-1",")"))) +
+  labs(x=expression(paste("Average Measure ","(mL","\U00B7","kg"^"-1","\U00B7","min"^"-1",")")),
+       y=expression(paste("Predicted - Measured (mL","\U00B7","kg"^"-1","\U00B7","min"^"-1",")"))) +
   # x- and y-axis size.
   coord_cartesian(xlim = c(0, 60), ylim = c(-25, 30)) +
   # graph label.
@@ -145,8 +145,8 @@ reg_CVD <- ggplot(df_test, aes(x = vo2_ml_kg_min,
   theme_bw(base_rect_size = 2, base_line_size = 2) +
   theme(panel.grid = element_blank()) +
   geom_point(size = 3) +
-  labs(x=expression(paste("Measured VO"["2peak"], " (ml","\U00B7","kg"^"-1","\U00B7","min"^"-1",")")),
-       y=expression(paste("Predicted VO"["2peak"], " (ml","\U00B7","kg"^"-1","\U00B7","min"^"-1",")"))) +
+  labs(x=expression(paste("Measured VO"["2peak"], " (mL","\U00B7","kg"^"-1","\U00B7","min"^"-1",")")),
+       y=expression(paste("Predicted VO"["2peak"], " (mL","\U00B7","kg"^"-1","\U00B7","min"^"-1",")"))) +
   # Rotate the new y-axis label so it reads vertically. 
   theme(axis.text.y = element_text(angle = 90, hjust = 0.5)) +
   # Axis sizes.
@@ -201,8 +201,8 @@ reg_healthy <- ggplot(df_test, aes(x = vo2_ml_kg_min,
   theme_bw(base_rect_size = 2, base_line_size = 2) +
   theme(panel.grid = element_blank()) +
   geom_point(size = 3) +
-  labs(x=expression(paste("Measured VO"["2peak"], " (ml","\U00B7","kg"^"-1","\U00B7","min"^"-1",")")),
-       y=expression(paste("Predicted VO"["2peak"], " (ml","\U00B7","kg"^"-1","\U00B7","min"^"-1",")"))) +
+  labs(x=expression(paste("Measured VO"["2peak"], " (mL","\U00B7","kg"^"-1","\U00B7","min"^"-1",")")),
+       y=expression(paste("Predicted VO"["2peak"], " (mL","\U00B7","kg"^"-1","\U00B7","min"^"-1",")"))) +
   # Rotate the new y-axis label so it reads vertically. 
   theme(axis.text.y = element_text(angle = 90, hjust = 0.5)) +
   # Axis sizes.
