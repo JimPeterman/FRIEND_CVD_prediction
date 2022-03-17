@@ -156,13 +156,13 @@ reg_CVD <- ggplot(df_test, aes(x = vo2_ml_kg_min,
   theme(plot.title = element_text(hjust = 0.5, face = "bold", size = 22)) +
   theme(legend.key = element_rect(color ="white")) +
   # Add in the correlation and sig values.
-  annotate(geom = "text", x=5.8, y=50, label = r_label_CVD, size=6) +
-  annotate(geom = "text", x=6.4, y=47, label = rsq_label_CVD, parse=T, size = 6) +
-  annotate(geom = "text", x=6, y=44, label = "P < .05", size=6) + 
+  annotate(geom = "text", x=2, y=50, label = r_label_CVD, size=6, hjust=0) +
+  annotate(geom = "text", x=2, y=47, label = rsq_label_CVD, parse=T, size = 6, hjust=0) +
+  annotate(geom = "text", x=2, y=44, label = "P < .05", size=6, hjust=0) + 
   # These are for adjusting text size and legend dot size (since the figure is huge).
   theme(text = element_text(size = 17)) +
   guides(colour = guide_legend(override.aes = list(size=7)))
-
+reg_CVD
 
 ###############################################################################
 ##### Graph the Healthy Equation Prediction
@@ -212,9 +212,9 @@ reg_healthy <- ggplot(df_test, aes(x = vo2_ml_kg_min,
   theme(plot.title = element_text(hjust = 0.5, face = "bold", size = 22)) +
   theme(legend.key = element_rect(color ="white")) +
   # Add in the correlation and sig values.
-  annotate(geom = "text", x=5.8, y=50, label = r_label_healthy, size=6) +
-  annotate(geom = "text", x=6.4, y=47, label = rsq_label_healthy, parse=T, size = 6) +
-  annotate(geom = "text", x=6, y=44, label = "P < .05", size=6) + 
+  annotate(geom = "text", x=2, y=50, label = r_label_healthy, size=6, hjust=0) +
+  annotate(geom = "text", x=2, y=47, label = rsq_label_healthy, parse=T, size = 6, hjust=0) +
+  annotate(geom = "text", x=2, y=44, label = "P < .05", size=6, hjust=0) + 
   # These are for adjusting text size and legend dot size (since the figure is huge).
   theme(text = element_text(size = 17)) +
   guides(colour = guide_legend(override.aes = list(size=7)))
