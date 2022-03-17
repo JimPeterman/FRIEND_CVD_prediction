@@ -162,7 +162,7 @@ reg_CVD <- ggplot(df_test, aes(x = vo2_ml_kg_min,
   # These are for adjusting text size and legend dot size (since the figure is huge).
   theme(text = element_text(size = 17)) +
   guides(colour = guide_legend(override.aes = list(size=7)))
-reg_CVD
+
 
 ###############################################################################
 ##### Graph the Healthy Equation Prediction
