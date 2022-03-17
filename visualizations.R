@@ -158,7 +158,7 @@ reg_CVD <- ggplot(df_test, aes(x = vo2_ml_kg_min,
   # Add in the correlation and sig values.
   annotate(geom = "text", x=5.8, y=50, label = r_label_CVD, size=6) +
   annotate(geom = "text", x=6.4, y=47, label = rsq_label_CVD, parse=T, size = 6) +
-  annotate(geom = "text", x=6, y=44, label = "P < 0.05", size=6) + 
+  annotate(geom = "text", x=6, y=44, label = "P < .05", size=6) + 
   # These are for adjusting text size and legend dot size (since the figure is huge).
   theme(text = element_text(size = 17)) +
   guides(colour = guide_legend(override.aes = list(size=7)))
@@ -214,7 +214,7 @@ reg_healthy <- ggplot(df_test, aes(x = vo2_ml_kg_min,
   # Add in the correlation and sig values.
   annotate(geom = "text", x=5.8, y=50, label = r_label_healthy, size=6) +
   annotate(geom = "text", x=6.4, y=47, label = rsq_label_healthy, parse=T, size = 6) +
-  annotate(geom = "text", x=6, y=44, label = "P < 0.05", size=6) + 
+  annotate(geom = "text", x=6, y=44, label = "P < .05", size=6) + 
   # These are for adjusting text size and legend dot size (since the figure is huge).
   theme(text = element_text(size = 17)) +
   guides(colour = guide_legend(override.aes = list(size=7)))
